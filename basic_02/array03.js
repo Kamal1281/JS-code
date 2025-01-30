@@ -29,3 +29,8 @@ let score2 = 200
 let score3 = 300
 
 console.log(Array.of(score1, score2, score3));
+
+let copy = [1,2,3,4,5,6,7]
+//console.log(copy.copyWithin(3,1,3)) 
+const isBelowThreshold = (currentValue) => currentValue > 9
+console.log(copy.every(isBelowThreshold))
